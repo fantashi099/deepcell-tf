@@ -29,7 +29,7 @@ import tensorflow as tf
 from tensorflow.python.framework import tensor_shape
 from tensorflow.keras.layers import Layer
 from tensorflow.keras import backend as K
-from keras.utils import conv_utils
+from tensorflow.python.keras.utils import conv_utils
 
 
 class UpsampleLike(Layer):
