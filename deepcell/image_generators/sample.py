@@ -40,7 +40,7 @@ from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.preprocessing.image import array_to_img
 from tensorflow.keras.preprocessing.image import Iterator
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from keras.utils import conv_utils
+from tensorflow.python.keras.utils import conv_utils
 
 from deepcell.image_generators import _transform_masks
 
